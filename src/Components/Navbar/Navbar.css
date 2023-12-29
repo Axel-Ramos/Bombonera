@@ -1,0 +1,32 @@
+.boca{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#02236D;
+}
+.fotos{
+    width: 100px;
+    height: 100px;
+}
+.fotos-sponsor{
+    width: 100px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+    fill: rgb(16, 63, 121);
+    margin-left: 35px;
+}
+.proyectos{
+    background-color: #02246d;
+    display: flex;
+    height: 12vh;
+    color: white;
+    font-size: x-large;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}

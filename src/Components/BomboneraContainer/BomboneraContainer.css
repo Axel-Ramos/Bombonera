@@ -1,0 +1,70 @@
+.estadio-izq{
+    background-color: #02236D;
+    border-radius: 20px;
+    color: white;
+    margin: 35px;
+    text-align: center;
+}
+.estadio-der{
+    background-color: rgba(255, 255, 1, 0.898);
+    border-radius: 20px;
+    color: #000;
+    margin: 35px;
+    text-align: center;
+}
+.card{
+    display: flex;
+    text-align: justify;
+}
+.titulo{
+    font-size: 40px;
+    text-align: center;
+}
+.imagen{
+    height: 250px;
+    width: 450px;
+    margin: 35px;
+    border-radius: 30px;
+}
+.texto{
+    margin: 25px;
+    text-align: center;
+    font-size: x-large;
+}
+.boton-mas {
+    display: flex;
+    padding: 8px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    justify-content: center;
+    cursor: pointer;
+}
+.boton-mas:hover {
+    background-color: #ccc;
+}
+.boton-mas:active {
+    background-color: #aaa;
+}
+.links{
+    text-decoration: none;
+    color: white;
+}
+/*Carrousel*/
+.contenedor{
+    margin-top: 50px;
+    margin-left: 350px;
+}
+.estadio{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+.descripcion{
+    font-size: x-large;
+    width: 75%;
+    margin-left: 150px;
+}
